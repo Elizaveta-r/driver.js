@@ -138,7 +138,8 @@
 
 /* Disable the scrolling of parent element if it has an active element*/
 :not(body):has(> .driver-active-element) {
-  overflow: hidden !important;
+  /* overflow: hidden !important; */
+  overflow: visible !important;
 }
 
 .driver-no-interaction, .driver-no-interaction * {
